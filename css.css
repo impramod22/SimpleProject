@@ -1,0 +1,249 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	margin: 10px;
+	padding: 10px;
+	background-image: url(img/perfect2.jpg);
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: times new roman;
+}
+.Cname
+{
+	display:inline-block;
+	position: absolute;
+	left: 0;
+	padding: 35px;
+	font-size: 20px;
+	color: white;
+}
+.menu-bar
+{
+	background: #1e88eb;
+	text-align: right;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #ffffff;
+}
+.menu-bar ul li
+{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+	background: #cc46eb;
+	border-radius: 3px;
+}
+.menu-bar .fa
+{
+	margin-right: 8px;
+}
+.sub-menu-1
+{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background: #1e88eb;
+	margin-top: 15px;
+	margin-left:-15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+	color: black;
+}
+.fa-angle-right
+{
+	float: right;
+}
+
+.sub-menu-2
+{
+	display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+	display: block;
+	position: absolute;
+	background: #1e88eb;
+	margin-top: -40px;
+	margin-left:140px;
+}
+
+.hed
+{
+	text-align: center;
+	font-size: 4.0em;
+
+}
+.song2
+{
+	text-align: center;
+	
+}
+.song2 a
+{
+	text-decoration: none;
+	color: black;
+}
+.song3
+{
+	text-align: right;
+}
+.song3 a
+{
+	text-decoration: none;
+	color: black;
+}
+.song1 a
+{
+	text-decoration: none;
+	color: black;
+}
+.foot
+{
+	text-align: center;
+	word-spacing: 2.1em;
+	font-size: 2.1em;
+	fill-rule: all;
+	font-weight: bold;
+	text-transform: 
+	text-decoration-color: black;
+}
+
+.eml
+{
+	text-align: center;
+	
+	cursor: pointer;
+	box-shadow: transparent;
+
+
+}
+.heading
+{
+	color: black;
+	font-size: 1.3em;
+}
+.fit
+{
+	text-align: center;
+}
+.fa-instagram 
+{
+  background: #144087;
+  color: white;
+}
+.fa-facebook
+{
+  background: #144087;
+  color: white;
+}
+.fa-twitter
+{
+  background: #5294ff;
+  color: white;
+}
+.fa-youtube
+{
+	background: red;
+	color: white;
+}
+.fa {
+  padding: px;
+  
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+ .fa:hover 
+{
+    opacity: 0.7;
+}
+.fa-youtube-play
+{
+	vertical-align: middle;
+  color: red;
+  
+  
+}
+#btn
+{
+	
+	object-position: : right;
+
+}
+/*   About Page    */
+.about-content
+{
+	padding:200px;
+}
+.about-content h1
+{
+	text-align: right;
+	color: red;
+	text-decoration: underline;
+}
+.about-content p
+{
+	text-align: right;
+	color: black;
+}
+/* Contact page */
+.contact-content
+{
+	padding:200px;
+}
+.contact-content h1
+{
+	text-align: right;
+	color: red;
+	text-decoration: underline;
+}
+.contact-content p
+{
+	text-align: right;
+	color: black;
+}
+.contact-content h4
+{
+	text-align: right;
+	color: black;
+}
